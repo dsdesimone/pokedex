@@ -1,0 +1,32 @@
+/*RESET*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #eeeeee;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, p, ul, li, a, i, span, div{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+}
+input, button{
+    border: none;
+    font-family: inherit;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+button{
+    cursor: pointer;
+}

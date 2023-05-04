@@ -1,0 +1,55 @@
+.formPoke{
+    display: flex;
+    gap: 1em;
+}
+.formPoke__form{
+
+}
+.formPoke__form-input{
+    border: 1px solid rgb(0, 0, 0, .3);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .3);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 300px;
+    height: 30px;
+}
+.formPoke__form-btn{
+    border: 1px solid rgb(0, 0, 0, .3);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .3);
+    background-color: #ec1c24;
+    color: white;
+    font-weight: 400;
+    width: 80px;
+    height: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.formPoke__form-btn:hover{
+    filter: brightness(1.05);
+}
+.formPoke__select{
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+@media (max-width: 650px){
+    .formPoke__form-input{
+        width: 200px;
+    }
+}
+@media (max-width:520px){
+    .formPoke{
+        flex-direction: column;
+    }
+    .formPoke__form-input{
+        width: 130px;
+        height: 25px;
+    }
+    .formPoke__form-btn{
+        width: 70px;
+        height: 25px;
+    }
+    .formPoke__select{
+        width: 100px;
+    }
+}
