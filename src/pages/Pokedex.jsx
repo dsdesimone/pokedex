@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux'
-import FormPoke from '../components/pokedex/formPoke'
+import FormPoke from '../components/pokedex/FormPoke'
 import PokeContainer from '../components/pokedex/PokeContainer'
 import './styles/pokedex.css'
 import { useState } from 'react'
